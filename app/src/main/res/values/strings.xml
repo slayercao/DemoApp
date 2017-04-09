@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DemoApp</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="sign_up"><u>Connect with us? Sign Up</u></string>
+    <string name="login"><u>Already a member? Login</u></string>
 </resources>
