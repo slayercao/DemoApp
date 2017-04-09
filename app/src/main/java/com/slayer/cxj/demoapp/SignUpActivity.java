@@ -12,6 +12,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+
         findViewById(R.id.button_signup).setOnClickListener(this);
         findViewById(R.id.link_login).setOnClickListener(this);
     }
