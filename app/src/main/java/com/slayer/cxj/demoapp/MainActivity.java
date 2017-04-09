@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.link_signup).setOnClickListener(this);
         findViewById(R.id.button_login).setOnClickListener(this);
+
     }
 
 
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(signUpIntent);
                 break;
             }
-            case R.id.button_login:{
+            case R.id.button_login: {
                 break;
             }
         }
